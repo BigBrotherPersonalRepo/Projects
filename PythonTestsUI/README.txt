@@ -1,4 +1,4 @@
-Oriflame front-end autotest project.
+Front-end autotest project.
 ====================================
 ====================================
 
@@ -55,4 +55,3 @@ Scenario:
                 - quantity input with value 1 (value is representing number of products in basket)
             9. Writing successful test result into log.txt file
 ==================================================================================================================================
-Actual result: Test is successfully completed.
