@@ -1,6 +1,4 @@
-Vitejte u testovani 1. semestralniho projektu předmětu UPR 1. ročník kombinovaneho studia.
-
-pouzivate csv databazi.
+Pouzivate csv databazi.
 
 spoustejte z prikazove radky vstupem typu:
 
@@ -61,4 +59,5 @@ Soucet sloupce age: 163
 Zadejte prikaz: sum name
 Soucet sloupce name: 0
 Zadejte prikaz: exit
+
 Ukladam soubor do modified.csv.
