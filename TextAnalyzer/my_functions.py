@@ -1,7 +1,3 @@
-#=====================================================
-#knihovna pro druhy projekt obsahujici definici funkci
-#=====================================================
-
 import messages
 import my_functions
 import random
@@ -64,4 +60,5 @@ def bulls_and_cows(vstup, zadani):
 #funkce pro ukonceni programu po hre
 def again_or_exit():
     if input() != "yes":
+
         exit()
