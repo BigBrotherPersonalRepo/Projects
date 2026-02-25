@@ -1,6 +1,3 @@
-'''
-
-'''
 #import knihoven
 import requests
 import common
@@ -76,4 +73,5 @@ urlInvalidId = urlGetMeasurement + "invalidAppendix"
 measurementInvalidGetResponse = requests.get(urlInvalidId, timeout=3)
 
 #overeni odpovedi pro GET
+
 common.verify_status_negative(measurementInvalidGetResponse, 200)
