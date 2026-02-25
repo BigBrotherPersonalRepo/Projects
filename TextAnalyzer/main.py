@@ -1,10 +1,3 @@
-"""
-projekt_2.py: druhý projekt do Engeto Online Python Akademie
-
-author: Pavlína Kummerova
-email: paja.kummerova@seznam.cz
-"""
-
 import my_functions
 import messages
 
@@ -61,4 +54,5 @@ while True:
 
             #vypis vysledku
             print(f"{vysledek[0]} {b}, {vysledek[1]} {c}")
+
             print(messages.oddelovac)
