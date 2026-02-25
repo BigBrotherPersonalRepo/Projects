@@ -1,7 +1,3 @@
-#=========================================
-#Soubor obsahujici texty pro druhy projekt
-#=========================================
-
 pozdrav = """-----------------------------------------------
 I've generated a random 4 digit number for you.
 Let's play a bulls and cows game.
@@ -32,4 +28,5 @@ konec3 = """That's amazing!"""
 
 again_or_exit = """Wanna play again?
 If yes, type \"yes\".
+
 For exit type anything else.."""
