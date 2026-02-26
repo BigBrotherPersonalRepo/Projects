@@ -1,0 +1,24 @@
+
+
+Test name = test_add_to_basket:
+Error: Element cannot be clicked on! || locator: ('xpath', "//button[@id='didomi-notice-agree-button']")
+
+
+Test name = test_add_to_basket:
+Error: Element cannot be clicked on! || locator: ('xpath', "//a[@data-testid='Presentation-whats-new-button-right']")
+
+
+Test name = test_add_to_basket:
+Error: Element cannot be clicked on! || locator: ('xpath', "//*[name()='svg' and @data-testid='QuickBuyOutlinedIcon']")
+
+
+Test name = test_add_to_basket:
+Error: Element cannot be clicked on! || locator: ('xpath', "//a[@data-testid='Presentation-top-area-shopping-bag-icon-root']")
+
+
+Test name = test_add_to_basket:
+Error: Element is not presented! || locator: ('xpath', "//button[@data-testid='Checkout-@ori/checkout-basket-navigation-button']")
+
+
+Test name = test_add_to_basket:
+Error: Element is not visible! || locator: ('xpath', "//div[@data-testid='basket-section']")
