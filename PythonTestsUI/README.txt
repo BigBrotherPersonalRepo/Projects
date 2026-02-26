@@ -29,7 +29,7 @@ Prerequisites:
 
 Running:
 ========
-- test can be runned with from main project folder with command: python test.py 
+- test can be runned with from main project folder with command: "pytest -v -s {path to repo with tests}"
 
 Result:
 =======
@@ -55,3 +55,4 @@ Scenario:
                 - quantity input with value 1 (value is representing number of products in basket)
             9. Writing successful test result into log.txt file
 ==================================================================================================================================
+
