@@ -9,13 +9,14 @@ folders:
 -->geckodriver.exe
 
 files:
+-venv.zip
 -config.py
 -common.py
 -basePage.py
 -homePage.py
 -whatsNewPage.py
 -checkoutPage.py
--test.py (main)
+-test_addToBasket.py
 => ALL THESE ELEMENTS MUST BE IN SAME FOLDER!
 
 -log.txt is created after execution of test.py and contains test result
@@ -29,11 +30,11 @@ Prerequisites:
 
 Running:
 ========
-- test can be runned with from main project folder with command: "pytest -v -s {path to repo with tests}"
+- test can be runned from main project folder with command: "pytest -v -s {path to repo with tests}"
 
 Result:
 =======
-- if the test was successful, message "Test successfully completed! (test.py)" is written into log.txt file in main project folder
+- if the test was successful, message "Test successfully completed!" is written into log.txt file in main project folder
 - if not, errors are logged into log.txt file in main project folder and assertion fail message is written into console if occurs
 
 TEST DESIGN:
@@ -55,4 +56,5 @@ Scenario:
                 - quantity input with value 1 (value is representing number of products in basket)
             9. Writing successful test result into log.txt file
 ==================================================================================================================================
+
 
